@@ -34,8 +34,8 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 USER_NAME = "free"         # 用户名
 UUID = "50f61a44-ee0f-41c6-9d48-188cbd73553b"                     # UUID，留空则自动生成
 PORT = 4999                   # Vmess端口，留空或0则自动生成
-DOMAIN = "free.520961.dpdns.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiMzQ0YWNlODY2ZGIwMzVjOGQ3YjE2MjFjZWUzOTMxYjYiLCJ0IjoiN2Y4OTcxYzEtZDY3NC00YTVjLTk4ODAtMmRlYjViODM2MzU3IiwicyI6IlptRTROV014WkRJdE56ZzRNaTAwWTJOa0xXRXpPRGt0TTJFek4yVXpZV0UwT0RjMSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+DOMAIN = ""                   # 域名，留空则自动获取
+CF_TOKEN = ""                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
